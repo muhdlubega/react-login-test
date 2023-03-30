@@ -1,0 +1,97 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.text {
+  &-blue {
+    color: blue;
+  }
+
+  &-pink {
+    color: pink;
+  }
+}
+
+.person {
+  border: 8px dotted rgb(55, 44, 207);
+  padding: 8px;
+  margin-bottom: 8px;
+
+  &:hover {
+    color: blue;
+  }
+
+  &:first-child {
+    margin-bottom: 0;
+  }
+
+  &-name {
+    font-size: 120%;
+    color: black;
+  }
+
+  &-age {
+    font-size: 90%;
+    padding-left: 10px;
+    color: grey;
+  }
+
+  &-address {
+    font-size: 90%;
+    padding-left: 10px;
+    color: grey;
+  }
+}
+
+.input {
+  font-size: 120%;
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgb(75, 75, 211);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+body {
+  background-color: rgb(207, 235, 207);
+}
+
+label {
+  margin-top: 30px;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(9, 75, 34);
+}
+.p-1 {
+  padding: 8px;
+
+  button {
+    margin-top: 20px;
+  }
+}
+
+.grandpa {
+  display: flex;
+  justify-content: center;
+}
+
+.boy {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(9, 75, 34);
+  margin: 8px;
+  padding: 5px 20px;
+  background-color: rgb(167, 224, 192);
+  border-radius: 5px;
+
+  &:hover {
+    transform: scale(1.25);
+  }
+}

@@ -1,0 +1,36 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-pink {
+  color: pink;
+}
+
+.person {
+  border: 8px dotted rgb(55, 44, 207);
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.person:last-child {
+  margin-bottom: 0;
+}
+
+.person-name {
+  font-size: 120%;
+}
+
+.person-age {
+  font-size: 90%;
+  padding-left: 10px;
+}
+
+.person-address {
+  font-size: 90%;
+  padding-left: 10px;
+}
